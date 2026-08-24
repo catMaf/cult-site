@@ -1,0 +1,10 @@
+services:
+  cult-web:
+    build: .
+    image: cult-studio:latest
+    container_name: cult-web
+    expose:
+      - "80"
+    networks:
+      - web
+    restart: unless-stopped

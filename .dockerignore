@@ -1,0 +1,8 @@
+dev/**
+.git/
+.gitignore
+.DS_Store
+**/.DS_Store
+*.md
+docker-compose.yml
+.dockerignore
